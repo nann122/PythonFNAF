@@ -5,7 +5,7 @@ from config import *
 
 
 class PizzaNights:
-    def __init__(self):
+    def init(self):
         pygame.init()
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         pygame.display.set_caption("Pizza Nights - Horror Survival")
@@ -45,6 +45,6 @@ class PizzaNights:
         sys.exit()
 
 
-if __name__ == "__main__":
+if __name__ == "main":
     game = PizzaNights()
     game.run()
