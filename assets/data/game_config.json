@@ -1,0 +1,66 @@
+{
+    "game_settings": {
+        "version": "1.0.0",
+        "title": "Pizza Nights",
+        "developer": "Indie Horror Studio"
+    },
+    "difficulty_settings": {
+        "night_1": {
+            "ai_aggression_multiplier": 1.0,
+            "power_drain_multiplier": 1.0,
+            "hour_duration": 85
+        },
+        "night_2": {
+            "ai_aggression_multiplier": 1.2,
+            "power_drain_multiplier": 1.1,
+            "hour_duration": 80
+        },
+        "night_3": {
+            "ai_aggression_multiplier": 1.4,
+            "power_drain_multiplier": 1.2,
+            "hour_duration": 75
+        },
+        "night_4": {
+            "ai_aggression_multiplier": 1.7,
+            "power_drain_multiplier": 1.3,
+            "hour_duration": 70
+        },
+        "night_5": {
+            "ai_aggression_multiplier": 2.0,
+            "power_drain_multiplier": 1.5,
+            "hour_duration": 65
+        }
+    },
+    "animatronic_configs": {
+        "freddy": {
+            "base_aggression": 1,
+            "move_interval_min": 4,
+            "move_interval_max": 8,
+            "movement_path": ["show_stage", "dining_area", "east_hall", "right_door"]
+        },
+        "bonnie": {
+            "base_aggression": 2,
+            "move_interval_min": 3,
+            "move_interval_max": 6,
+            "movement_path": ["show_stage", "dining_area", "backstage", "supply_closet", "west_hall", "left_door"]
+        },
+        "chica": {
+            "base_aggression": 2,
+            "move_interval_min": 3,
+            "move_interval_max": 7,
+            "movement_path": ["show_stage", "dining_area", "kitchen", "east_hall", "right_door"]
+        },
+        "foxy": {
+            "base_aggression": 3,
+            "camera_check_threshold": 5,
+            "run_speed": 2,
+            "movement_path": ["pirate_cove", "west_hall", "left_door"]
+        }
+    },
+    "audio_settings": {
+        "master_volume": 0.8,
+        "sfx_volume": 1.0,
+        "music_volume": 0.6,
+        "ambient_volume": 0.4
+    }
+}
